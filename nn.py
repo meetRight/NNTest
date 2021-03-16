@@ -18,7 +18,6 @@ plt.figure(num=1)
 plt.scatter(x.data.numpy(), y.data.numpy())
 plt.show()
 
-
 class Net(torch.nn.Module):
     def __init__(self, n_feature, n_hidden, n_hidden2,  n_output):
         super(Net, self).__init__()
